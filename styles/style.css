@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #E0E1E3;
+}
+
+.main-container {
+  width: 100px;
+  height: 1000px;
+  border: solid 1px gray;
+  background-color: #FFFFFF;
+  border-radius: 10px; 
+}
+
+.control-dot {
+    width: 46px;
+    height: 12px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto; margin-top: 10px;
+}
+
+.admin-image {
+    width: 72px; height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto; margin-top: 30px;
+    border: 2px whitesmoke solid;
+    border-radius: 50%;
+}
+
+.admin-image2 {
+    transform: translateY(-20px);
+}
+
+.admin-image1 {
+    transform: translateX(10px);
+}
+
+.search-div {
+    width: 55px; height: 55px;
+    border: 2px whitesmoke solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; margin-top: 30px;
+    border-radius: 50%;
+}
+
+.home-btn {
+    width: 55px;
+    justify-content: center;
+    display: flex;
+    margin: auto; margin-top: 30px;
+}
+
+.bag-div {
+    width: 55px; height: 55px;
+    background-color: #0077FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; margin-top: 30px;
+    border: 1px solid #3885DE;
+    border-radius: 50%;
+}
+
+.umbrella-icon {
+    width: 55px;
+    justify-content: center;
+    display: flex;
+    margin: auto; margin-top: 30px; 
+}
+
+.comment-icon {
+    width: 55px; height: 55px;
+    border: solid 1px #0077FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; margin-top: 30px;
+    border-radius: 50%;
+}
+
+.message-icon {
+    width: 55px;
+    justify-content: center;
+    display: flex;
+    margin: auto; margin-top: 30px;
+}
+
+.team {
+    width: 55px;
+    justify-content: center;
+    display: flex;
+    margin: auto; margin-top: 30px; 
+}
+
+.team-img1 {
+    width: 40px; height: 40px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; margin-top: 25px;
+    border-radius: 50%;
+    padding-top: 3px;
+
+}
+
+.team-image1 {
+    transform: translateX(6px);
+}
+
+.team1-dot {
+   transform: translateY(-13PX); 
+}
+
+.upload-div {
+    width: 60px; height: 60px;
+    background-color: #F0F3F7;
+    border: 3px dotted #DDE4ED;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; margin-top: 30px;
+}
+
+.moon-icon {
+    width: 55px;
+    justify-content: center;
+    display: flex;
+    margin: auto; margin-top: 30px;
+}
